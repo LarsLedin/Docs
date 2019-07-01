@@ -17,6 +17,16 @@ This is a pretty nice page
 
 
 ~~
+And this will produce a flow chart:
+
+```mermaid
+graph LR
+A[Square Rect] -- Link text --> B((Circle))
+A --> C(Round Rect)
+B --> D{Rhombus}
+C --> D
+A --> D
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY4ODM0MDI1XX0=
+eyJoaXN0b3J5IjpbLTE4NjcwMjA5ODBdfQ==
 -->
